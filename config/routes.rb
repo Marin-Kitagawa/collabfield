@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
-mount Bs5::Engine => '/bs5'
+  devise_scope :user do
+    get 'login' to: 'devise/sessions#new'
+  end
   root to: 'pages#index'
 end
