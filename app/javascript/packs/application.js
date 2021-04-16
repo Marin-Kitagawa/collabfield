@@ -12,4 +12,8 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 //= require jquery
-//= require bootstrap-sprockets
+//= require bootstrap-sprocketsimport * as bs5 from "bs5";
+
+document.addEventListener("turbolinks:load", function () {
+  bs5.start();
+});
