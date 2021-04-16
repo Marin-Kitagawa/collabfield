@@ -13,9 +13,10 @@ nav {
     }
   }
 }
-.navbar, .navbar-toggle:focus, .collapse, button.navbar-toggler {
-    border: none;
-    a {
-      color: white !important;
-    }
+.navbar-default, .navbar-toggle:focus, .collapsed, button.navbar-toggle {
+  background: $navbarColor !important;
+  border: none;
+  a {
+    color: white !important;
+  }
 }
