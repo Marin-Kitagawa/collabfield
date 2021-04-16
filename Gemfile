@@ -19,6 +19,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 # For integrating with Bootstrap 5
 gem 'bs5'
+gem 'bootstrap_form'
+
 # For authentication
 gem 'devise'
 # Use Redis adapter to run Action Cable in production
