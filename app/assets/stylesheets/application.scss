@@ -13,5 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+//  Bootstrap (version 5 rendered using the bs5 engine)
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+
+ // Variables
+ @import "./base/variables";
+
+ // Partials - main SCSS Files
+ @import "partials/layout/*";
