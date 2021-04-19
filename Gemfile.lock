@@ -239,6 +239,7 @@ DEPENDENCIES
   bootstrap-sass
   bootstrap_form
   bs5
+  bundler
   byebug
   capybara (>= 3.26)
   devise
